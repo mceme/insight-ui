@@ -1,12 +1,12 @@
 {
-  "name": "@axerunners/insight-ui",
+  "name": "@mceme/insight-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Axe network and build your own services with it.",
   "version": "2.0.12",
-  "repository": "git://github.com/axerunners/insight-ui.git",
+  "repository": "git://github.com/mceme/insight-ui.git",
   "bugs": {
-    "url": "https://github.com/axerunners/insight-ui/issues"
+    "url": "https://github.com/mceme/insight-ui/issues"
   },
-  "homepage": "https://github.com/axerunners/insight-ui",
+  "homepage": "https://github.com/mceme/insight-ui",
   "license": "MIT",
   "keywords": [
     "insight",
