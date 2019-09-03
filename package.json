@@ -17,7 +17,7 @@
     "front-end",
     "axecore"
   ],
-  "axecoreNode": "axecore-node",
+  "axecoreNode": "imagecoin-node",
   "scripts": {
     "build": "bower install && grunt compile",
     "watch": "grunt",
