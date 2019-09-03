@@ -35,5 +35,5 @@ deploy:
     skip_cleanup: true
     script: bash scripts/travis-deploy.sh
     on:
-      repo: axerunners/insight-ui
+      repo: mceme/insight-ui
       tags: true
