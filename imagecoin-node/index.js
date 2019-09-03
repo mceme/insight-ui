@@ -18,7 +18,7 @@ var InsightUI = function(options) {
   }
 };
 
-InsightUI.dependencies = ['@axerunners/insight-api'];
+InsightUI.dependencies = ['@mceme/insight-api'];
 
 inherits(InsightUI, BaseService);
 
