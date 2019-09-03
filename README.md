@@ -1,8 +1,8 @@
 # Insight UI
 
-[![NPM Version](https://img.shields.io/npm/v/@axerunners/insight-ui.svg?branch=master)](https://npmjs.org/package/@axerunners/insight-ui)
+[![NPM Version](https://img.shields.io/npm/v/@mceme/insight-ui.svg?branch=master)](https://npmjs.org/package/@mceme/insight-ui)
 
-An AXE blockchain explorer web application service for [AXEcore Node](https://github.com/axerunners/axecore-node) using [Insight API](https://github.com/axerunners/insight-api).
+An AXE blockchain explorer web application service for [ImageCoin Node](https://github.com/mceme/imagecoin-node) using [Insight API](https://github.com/mceme/insight-api).
 
 ## Quick Start
 
@@ -13,19 +13,19 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g @axerunners/axecore-node
-axecore-node create mynode
+npm install -g @mceme/imagecoin-node
+imagecoin-node create mynode
 cd mynode
-axecore-node install @axerunners/insight-api
-axecore-node install @axerunners/insight-ui
-axecore-node start
+imagecoin-node install @mceme/insight-api
+imagecoin-node install @mceme/insight-ui
+imagecoin-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
 
 ## Development
 
-To run Insight UI AXE locally in development mode:
+To run Insight UI ImageCoin locally in development mode:
 
 Install dependencies:
 
