@@ -21,7 +21,7 @@ imagecoin-node install @mceme/insight-ui
 imagecoin-node start
 ```
 
-Open a web browser to `http://localhost:3001/insight/`
+Open a web browser to `http://localhost:3005/insight/`
 
 ## Development
 
