@@ -2,7 +2,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/@mceme/insight-ui.svg?branch=master)](https://npmjs.org/package/@mceme/insight-ui)
 
-An AXE blockchain explorer web application service for [ImageCoin Node](https://github.com/mceme/imagecoin-node) using [Insight API](https://github.com/mceme/insight-api).
+An ImageCoin blockchain explorer web application service for [ImageCoin Node](https://github.com/mceme/imagecoin-node) using [Insight API](https://github.com/mceme/insight-api).
 
 ## Quick Start
 
