@@ -34,7 +34,7 @@ nano /imagecoin-node/mynode/imagecoin-node.json
   "port": 3003,
   "services": [
     "ImageCoind",
-     "web", "@mceme/insight-api", "@mceme/insight-ui"],
+     "web", "insight-api", "insight-ui"],
   "servicesConfig": {
     "ImageCoind": {
       "spawn": {
