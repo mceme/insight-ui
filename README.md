@@ -41,7 +41,7 @@ nano /imagecoin-node/mynode/imagecoin-node.json
         "datadir": "/root/.imagecoincore",
         "exec": "/root/ImageCoind"
       },
-     "connect": [
+     "connect":
         {
           "rpchost": "127.0.0.1",
           "rpcport": 6999,
@@ -49,7 +49,6 @@ nano /imagecoin-node/mynode/imagecoin-node.json
           "rpcpassword": "xxxxx",
           "zmqpubrawtx": "tcp://127.0.0.1:28332"
         }
-      ]
     }
   }
 }
