@@ -16,8 +16,13 @@ To manually install all of the necessary components, you can run these commands:
 sudo npm install mceme/imagecoin-node
 imagecoin-node create mynode
 cd mynode
-imagecoin-node install @mceme/insight-api
-imagecoin-node install @mceme/insight-ui
+sudo npm install --unsafe-perm=true --allow-root
+sudo npm install zeromq  --unsafe-perm=true --allow-root
+sudo npm install mceme/imagecoin-lib
+sudo npm install mceme/imagecoin-rpc
+sudo npm install mceme/imagecoin-p2p
+sudo npm install mceme/insight-api
+sudo npm install mceme/insight-ui
 imagecoin-node start
 ```
 
