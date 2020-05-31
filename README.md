@@ -27,6 +27,31 @@ imagecoin-node start
 ```
 `
 nano /imagecoin-node/mynode/imagecoin-node.json
+
+{
+  "network": "livenet",
+  "port": 3003,
+  "services": [
+    "ImageCoind",
+    "web"],
+  "servicesConfig": {
+    "ImageCoind": {
+      "spawn": {
+        "datadir": "/root/.imagecoincore",
+        "exec": "/root/ImageCoind"
+      },
+     "connect": [
+        {
+          "rpchost": "127.0.0.1",
+          "rpcport": 6999,
+          "rpcuser": "username",
+          "rpcpassword": "xxxxx",
+          "zmqpubrawtx": "tcp://127.0.0.1:28332"
+        }
+      ]
+    }
+  }
+}
 `
 
 Open a web browser to `http://localhost:3003/insight/`
