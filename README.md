@@ -21,21 +21,11 @@ sudo npm install zeromq  --unsafe-perm=true --allow-root
 sudo npm install mceme/imagecoin-lib
 sudo npm install mceme/imagecoin-rpc
 sudo npm install mceme/imagecoin-p2p
-
-
-git clone https://github.com/mceme/insight-ui
-cd insight-ui
-npm install --unsafe-perm=true --allow-root
-
-cd..
-
-
-git clone https://github.com/mceme/insight-api
-cd imagecoin-p2p
-npm install --unsafe-perm=true --allow-root
-
-cd..
-
+sudo npm install mceme/insight-api
+sudo npm install mceme/insight-ui
+sudo npm install insight-ui insight-api
+node ../bin/imagecoin-node install insight-api
+node ../bin/imagecoin-node install insight-ui
 
 imagecoin-node start
 ```
