@@ -6,14 +6,14 @@ An ImageCoin blockchain explorer web application service for [ImageCoin Node](ht
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [AXEcore](https://github.com/axerunners/axecore).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [IMGcore](https://github.com/mceme/ImageCoin).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g @mceme/imagecoin-node
+sudo npm install mceme/imagecoin-node
 imagecoin-node create mynode
 cd mynode
 imagecoin-node install @mceme/insight-api
@@ -47,7 +47,7 @@ $ npm run watch
 
 ## Multilanguage support
 
-Insight UI AXE uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
+Insight UI IMG uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
 
 To enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:
 
@@ -72,11 +72,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/axerunners/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/axerunners/insight-api).
+For more details about the [Insight API](https://github.com/mceme/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/mceme/insight-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI AXE GitHub repository](https://github.com/axerunners/insight-ui).
+Contributions and suggestions are welcomed at the [Insight UI IMG GitHub repository](https://github.com/mceme/insight-ui).
 
 
 ## License
