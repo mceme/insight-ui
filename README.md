@@ -25,15 +25,16 @@ sudo npm install mceme/insight-api
 sudo npm install mceme/insight-ui
 imagecoin-node start
 ```
-`
+```
 nano /imagecoin-node/mynode/imagecoin-node.json
-
+```
+```
 {
   "network": "livenet",
   "port": 3003,
   "services": [
     "ImageCoind",
-    "web"],
+     "web", "@mceme/insight-api", "@mceme/insight-ui"],
   "servicesConfig": {
     "ImageCoind": {
       "spawn": {
@@ -52,7 +53,7 @@ nano /imagecoin-node/mynode/imagecoin-node.json
     }
   }
 }
-`
+```
 
 Open a web browser to `http://localhost:3003/insight/`
 
