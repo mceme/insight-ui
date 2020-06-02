@@ -74,7 +74,7 @@ nano /imagecoin-node/mynode/imagecoin-node.json
 }
 ```
 
-Open a web browser to `http://localhost:3003/insight/`
+Open a web browser to `http://localhost:3004/img-ui/`
 
 ## Development
 
