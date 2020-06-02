@@ -23,11 +23,10 @@ sudo npm install mceme/imagecoin-rpc
 sudo npm install mceme/imagecoin-p2p
 sudo npm install mceme/insight-api
 sudo npm install mceme/insight-ui
-sudo npm install insight-ui insight-api
-node ../bin/imagecoin-node install insight-api
-node ../bin/imagecoin-node install insight-ui
+imagecoin-node install @mceme/insight-api
+imagecoin-node install @mceme/insight-ui
 
-imagecoin-node start
+
 ```
 ```
 nano /imagecoin-node/mynode/imagecoin-node.json
@@ -73,7 +72,10 @@ nano /imagecoin-node/mynode/imagecoin-node.json
   }
 }
 ```
-
+```
+imagecoin-node start
+ufw allow 3004
+```
 Open a web browser to `http://localhost:3004/img-insight/`
 
 ## Development
