@@ -44,7 +44,7 @@ nano /imagecoin-node/mynode/imagecoin-node.json
      ],
   "servicesConfig": {
    "@mceme/insight-ui": {
-      "routePrefix": "img-ui",
+      "routePrefix": "img-insight",
       "apiPrefix": "img-insight-api"
     },
     "@mceme/insight-api": {
@@ -74,7 +74,7 @@ nano /imagecoin-node/mynode/imagecoin-node.json
 }
 ```
 
-Open a web browser to `http://localhost:3004/img-ui/`
+Open a web browser to `http://localhost:3004/img-insight/`
 
 ## Development
 
