@@ -13,11 +13,10 @@
     "blockchain",
     "blockexplorer",
     "axe",
-    "bitcore-axe",
+    "bitcore-img",
     "front-end",
-    "axecore"
+    "imgcore"
   ],
-  "axecoreNode": "imagecoin-node",
   "imagecoinNode": "imagecoin-node",
   "scripts": {
     "build": "bower install && grunt compile",
