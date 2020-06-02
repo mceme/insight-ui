@@ -1,6 +1,6 @@
 {
   "network": "livenet",
-  "port": 3005,
+  "port": 3004,
   "services": [
     "ImageCoind",
     "@mceme/insight-api",
@@ -12,7 +12,7 @@
       "connect": [{
         "rpchost": "127.0.0.1",
         "rpcport": 6999,
-        "rpcuser": "axerpc",
+        "rpcuser": "urpc",
         "rpcpassword": "password",
         "zmqpubrawtx": "tcp://127.0.0.1:29998",
         "zmqpubhashblock": "tcp://127.0.0.1:29998"
