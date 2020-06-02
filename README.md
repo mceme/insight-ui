@@ -35,11 +35,27 @@ nano /imagecoin-node/mynode/imagecoin-node.json
 ```
 {
   "network": "livenet",
-  "port": 3003,
+  "port": 3004,
   "services": [
     "ImageCoind",
-     "web", "insight-api", "insight-ui"],
+     "web",
+     "@mceme/insight-ui",
+     "@mceme/insight-api"
+     ],
   "servicesConfig": {
+   "@mceme/insight-ui": {
+      "routePrefix": "img-ui",
+      "apiPrefix": "img-insight-api"
+    },
+    "@mceme/insight-api": {
+      "routePrefix": "img-insight-api",
+      "rateLimiterOptions": {
+        "whitelistLimit": 9999999,
+        "limit": 200,
+        "interval": 60000,
+        "banInterval": 3600000
+      }
+    },
     "ImageCoind": {
       "spawn": {
         "datadir": "/root/.imagecoincore",
